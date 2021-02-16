@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 @Repository
 @Transactional
-public interface EmployeeDao extends CrudRepository<Employee,Long> {
+public interface HRDAO extends CrudRepository<Employee,Long> {
     List<Employee> findEmployeeByEmployeeNameStartingWith(String name); // fetch list of Employee which start with
     List<Employee> findEmployeeByEmployeeRole(String role);         // fetch Employee by role
     List<Employee> findAll();                           // fetch all Employee
