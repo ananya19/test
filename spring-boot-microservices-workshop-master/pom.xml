@@ -9,8 +9,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>eureka-client</module>
-        <module>eureka-service</module>
+
         <module>discovery-server</module>
         <module>HR-Service</module>
         <module>employee</module>
