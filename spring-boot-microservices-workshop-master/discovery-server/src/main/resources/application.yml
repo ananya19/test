@@ -1,0 +1,6 @@
+# Eureka registration service
+eureka:
+  client:
+    # Eureka Center will register themselves as service client to attempt to register itself must be prohibited
+    register-with-eureka: false
+    fetch-registry: false
